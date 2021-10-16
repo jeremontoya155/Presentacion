@@ -1,0 +1,59 @@
+* {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+body {
+  background-color: black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.icono {
+  height: 1em;
+}
+.titulo {
+  background-color: black;
+  color: white;
+}
+
+.titulo:hover {
+  background-color: white;
+  color: black;
+  transition: 1s;
+}
+
+.centrar {
+  display: flexbox;
+  text-align: center;
+}
+
+p {
+  color: white;
+  font-size: large;
+}
+
+footer {
+  color: #fff;
+}
+
+.imagenes-cabecera {
+  height: 25%;
+  width: 25%;
+}
+
+.parallax-promo {
+  background-image: url("https://rumiantes-26ex1sw6hijbg4oa.netdna-ssl.com/wp-content/uploads/2019/12/vacuna-tuberculosis.jpg");
+  background-size: cover;
+  /*Dejar el fondo fijo*/
+  background-attachment: fixed;
+  height: 50vh;
+  font-size: 100px;
+  color: rgb(75, 70, 70);
+}
+
+.elementos-lista {
+  list-style: none;
+}
+
+.form-select {
+  margin-top: 2em;
+}
